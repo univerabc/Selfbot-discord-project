@@ -1040,7 +1040,7 @@ def thiết_lập():
 @client.event
 async def on_ready():
     tải_cài_đặt()
-    log_success(f"Được chạy bởi Hoàng Gia Kiệt - Đã đăng nhập với {client.user}")
+    log_success(f"Được chạy bởi Nguyễn Đăng Khoa- Đã đăng nhập với {client.user}")
     async def keep_alive():
         while True:
             await asyncio.sleep(300)
